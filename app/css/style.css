@@ -2,3 +2,72 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: Muli;
+}
+
+ul, ol {
+  list-style: none;
+  display: inline;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.navtop  {
+  height: 60px;
+  background: #F5FAFE;
+}
+
+.navtop .container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.navtop a {
+  color:  #333333;
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.navtop span {
+  font-weight: bold;
+}
+
+.tel {
+  margin-top: 5px;
+}
+
+.navtop li a {
+  margin-left: 98px;
+  padding-left: 36.5px;
+  height: 18px;
+  padding-top: 2px;
+  padding-bottom: 3px;
+}
+
+.price-box {
+  background-image: url("/app/img/header-surprice.svg");
+  background-repeat: no-repeat;
+  background-size: 16.5px 16.5px;
+}
+
+.star {
+  background-image: url("/app/img/header-star.svg");
+  background-repeat: no-repeat;
+  background-size: 16.5px 16.5px;  
+}
