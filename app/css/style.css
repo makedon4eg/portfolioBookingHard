@@ -169,3 +169,24 @@ form.example::after {
   color: #333333;
   margin-top: 0;
 }
+
+.navbar-bottom {
+  height: 80px;
+  background: #0A223D;
+  padding-top: 32px;
+}
+
+.navbar-bottom ul {
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.navbar-bottom a {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
