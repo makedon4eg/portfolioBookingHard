@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -94,72 +95,53 @@ a {
   color: #EC1F46;
 }
 
-.container-4{
-  overflow: hidden;
-  width: 300px;
-  vertical-align: middle;
-  white-space: nowrap;
+form.example {
+  margin-left: 108px;
+  margin-top: 40px;
+  width: 350px;
 }
 
-.container-4 input#search{
-  width: 300px;
-  height: 50px;
-  background: #F5FAFE;
+/* Style the search field */
+form.example input[type=search] {
+  padding: 10px;
+  font-size: 17px;
   border: none;
-  font-size: 10pt;
+  border-radius: 6px 0px 0px 6px;
   float: left;
-  color: #fff;
-  padding-left: 15px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  width: 285px;
+  background: #F5FAFE;
 }
 
-.container-4 input#search::-webkit-input-placeholder {
+input[type=search]::placeholder {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
   color: #333333;
 }
 
-.container-4 input#search:-moz-placeholder { /* Firefox 18- */
-  color: #333333; 
-}
-
-.container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
-  color: #333333;  
-}
-
-.container-4 input#search:-ms-input-placeholder {  
-  color: #333333;  
-}
-
-.container-4 button.icon {
-  -webkit-border-top-right-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-  -moz-border-radius-topright: 5px;
-  -moz-border-radius-bottomright: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
- 
-  border: none;
-  background: #232833;
-  height: 50px;
-  width: 50px;
-  color: #4f5b66;
-  opacity: 1;
-  font-size: 10pt;
- 
-  -webkit-transition: all .55s ease;
-  -moz-transition: all .55s ease;
-  -ms-transition: all .55s ease;
-  -o-transition: all .55s ease;
-  transition: all .55s ease;
-}
-
-.container-4:hover button.icon, .container-4:active button.icon, .container-4:focus button.icon {
-  outline: none;
-  opacity: 1;
-  margin-left: -50px;
-}
-
-.container-4:hover button.icon:hover{
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 65px;
+  padding: 10px;
   background: #EC1F46;
+  border-radius: 0px 6px 6px 0px;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
 }
