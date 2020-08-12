@@ -101,7 +101,6 @@ form.example {
   width: 350px;
 }
 
-/* Style the search field */
 form.example input[type=search] {
   padding: 10px;
   font-size: 17px;
@@ -121,7 +120,6 @@ input[type=search]::placeholder {
   color: #333333;
 }
 
-/* Style the submit button */
 form.example button {
   float: left;
   width: 65px;
@@ -131,7 +129,7 @@ form.example button {
   color: white;
   font-size: 17px;
   border: none;
-  border-left: none; /* Prevent double borders */
+  border-left: none;
   cursor: pointer;
 }
 
@@ -139,9 +137,35 @@ form.example button:hover {
   background: #0b7dda;
 }
 
-/* Clear floats */
 form.example::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.shopping-cart {
+  width: 24px;
+  height: 24px;
+  margin-left: 238px;
+  margin-top: 52px;
+}
+
+.profile {
+  width: 150px;
+  height: 40px;
+  margin-top: 45px;
+  margin-left: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile p {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  margin-top: 0;
 }
