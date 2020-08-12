@@ -311,10 +311,120 @@ form.example::after {
 
 .hotel-booking .container {
   display: flex;
+  justify-content: space-between;
 }
 
-.hotel-photo img {
-  background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+.hotel-photo {
+  background-image: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), url(/app/img/hotel-photo.jpg);
+  width: 728px;
+  height: 450px;
+  border-radius: 8px; 
+}
+
+.price_and_map {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.booking-box {
+  width: 350px;
+  height: 210px;
+  background: #0A223D;
   border-radius: 8px;
-  z-index: 100;
+  color: #FFFFFF;
+  font-family: Nunito;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  padding-right: 26px;
+}
+
+.room {
+  display: flex;
+
+}
+
+.price-text {
+  width: 86px;
+  height: 59px;
+  margin-top: 29px;
+  margin-left: 26px;
+}
+
+.price-text p {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.price-text h4 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.price-text span {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.room-option {
+  width: 80px;
+  height: 40px;
+  margin-top: 33px;
+  margin-left: 129px;
+}
+
+.room-option p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.guests {
+  background-image: url("/app/img/user.svg");
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+  padding-left: 23px;
+}
+
+.guest-room {
+  background-image: url("/app/img/home.svg");
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+  padding-left: 28px;
+  margin-top: 8px; 
+}
+
+.quick-booking {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 26px;
+  margin-top: 9px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.phone {
+  background-image: url("/app/img/phone-call.svg");
+  background-repeat: no-repeat;
+  padding-left: 22px;
+  background-position: left;
+}
+
+.booking-box a {
+  width: 295px;
+  height: 45px;
+  background: #EC1F46;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-top: 17px;
+  margin-left: 26px;
+  padding-top: 13px;
+  padding-left: 84px;
 }
