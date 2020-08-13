@@ -71,13 +71,13 @@ h1, h2, h3 {
 }
 
 .price-box {
-  background-image: url("/app/img/header-surprice.svg");
+  background-image: url("../img/header-surprice.svg");
   background-repeat: no-repeat;
   background-size: 16.5px 16.5px;
 }
 
 .star {
-  background-image: url("/app/img/header-star.svg");
+  background-image: url("../img/header-star.svg");
   background-repeat: no-repeat;
   background-size: 16.5px 16.5px;  
 }
@@ -315,7 +315,7 @@ form.example::after {
 }
 
 .hotel-photo {
-  background-image: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), url(/app/img/hotel-photo.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%), url("../img/hotel-photo.jpg");
   width: 728px;
   height: 450px;
   border-radius: 8px; 
@@ -383,14 +383,14 @@ form.example::after {
 }
 
 .guests {
-  background-image: url("/app/img/user.svg");
+  background-image: url("../img/user.svg");
   background-repeat: no-repeat;
   background-size: 14px 14px;
   padding-left: 23px;
 }
 
 .guest-room {
-  background-image: url("/app/img/home.svg");
+  background-image: url("../img/home.svg");
   background-repeat: no-repeat;
   background-size: 14px 14px;
   padding-left: 28px;
@@ -408,7 +408,7 @@ form.example::after {
 }
 
 .phone {
-  background-image: url("/app/img/phone-call.svg");
+  background-image: url("../img/phone-call.svg");
   background-repeat: no-repeat;
   padding-left: 22px;
   background-position: left;
