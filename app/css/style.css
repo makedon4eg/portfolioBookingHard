@@ -580,6 +580,57 @@ form.example::after {
 }
 
 .hotels-review {
-  mt
+  margin-top: 105px;
+}
 
+.hotels-review h2 {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.tripadvisor-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 65px;
+}
+
+.tripadvisor-card {
+  height: 500px;
+  background: #0A223D;
+  border-radius: 8px;
+}
+
+.card-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+}
+
+.hotel-features {
+  padding-top: 38px;
+  padding-left: 44px;
+  padding-right: 21px;
+}
+
+h6 {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.card-1 p {
+  margin-top: 27px;
+  font-size: 14px;
+  line-height: 160.6%;
+  color: #FFFFFF;
 }
