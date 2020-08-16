@@ -113,12 +113,14 @@ form.example {
 }
 
 form.example input[type=search] {
-  padding: 10px;
+  padding-top: 12px;
+  padding-left: 23px;
   font-size: 17px;
   border: none;
   border-radius: 6px 0px 0px 6px;
   float: left;
   width: 285px;
+  height: 40px;
   background: #F5FAFE;
 }
 
@@ -134,6 +136,7 @@ form.example input[type=search]::placeholder {
 form.example button {
   float: left;
   width: 65px;
+  height: 40px;
   padding: 10px;
   background: #EC1F46;
   border-radius: 0px 6px 6px 0px;
@@ -731,4 +734,310 @@ h6 {
 
 .price .small-card-button {
   margin-top: 15px;
+}
+
+article {
+  margin-top: 110px;
+}
+
+article h2 {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+/*Carousel*/
+
+.carousel-wrapper {
+  height:400px;
+  position:relative;
+  width:800px;
+  margin:0 auto;
+}
+
+.carousel-wrapper h2 {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #EC1F46;
+  margin-top: 9px;
+}
+
+.carousel-wrapper h3 {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  color: #000000;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.carousel-wrapper .stars {
+  margin: 0 auto;
+}
+
+.carousel-item {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  padding: 0 50px;
+  opacity:0;
+  transition: all 0.5s ease-in-out;
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin-top: 115px;
+}
+
+.user-info {
+  width: 107px;
+  margin: 0 auto;
+  margin-top: -45px;
+}
+
+.user-info .user-img {
+  margin: 0 auto;
+  display: block;
+}
+
+.carousel-item p {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 160%;
+  color: #333333;
+  margin: 0 auto;
+  margin-top: 33px;
+  max-width: 537px;
+}
+
+.arrow {
+  border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev {
+  left:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(135deg);
+}
+ 
+.arrow-next {
+  right:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(-45deg);
+}
+
+.light {
+  color:white;
+}
+
+@media (max-width: 480px) {
+      .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+      }
+    }
+
+/*Select every element*/
+[id^="item"] {
+    display: none;
+  }
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+  background-size:cover;
+  }
+.item-2 {
+   background-size:cover;
+}
+.item-3 {
+   background-size:cover;
+}
+
+*:target ~ .item-1 {
+    opacity: 0;
+  }
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+  }
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+}
+
+.subscribe {
+  height: 260px;
+  margin-top: 70px;
+  background-image: url("../img/Rectangle-25.jpg");
+  background-color: rgba(10, 34, 61, 0.8);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-top: 98px;
+}
+
+.subscribe .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 790px;
+}
+
+.subscribe-form form {
+  margin: 0;
+  padding: 0;
+}
+
+.subscribe p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.subscribe span {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.subscribe-form form.example {
+  width: 415px;
+}
+
+form.example input[type=input] {
+  padding-top: 19px;
+  padding-left: 33px;
+  font-size: 17px;
+  border: none;
+  border-radius: 6px 0px 0px 6px;
+  float: left;
+  width: 350px;
+  height: 55px;
+  line-height: 18px;
+  background: #F5FAFE;
+}
+
+form.example input[type=input]::placeholder {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #BDBDBD;
+  vertical-align: bottom;
+}
+
+.subscribe-form form button {
+  float: left;
+  width: 65px;
+  height: 55px;
+  padding: 10px;
+  background: #EC1F46;
+  border-radius: 0px 6px 6px 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  border: none;
+  border-left: none;
+  cursor: pointer;
+}
+
+
+form.example button:hover {
+  background: #0A223D;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.other-activities {
+  height: 500px;
+  padding-top: 60px;
+}
+
+.other-activities h2 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.activities {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 57px;
+}
+
+.activiti-card {
+  width: 255px;
+  height: 255px;
+  border-radius: 6px;
+  padding-top: 143px;
+  padding-left: 26px;
+}
+
+.activiti-card h5 {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.activiti-card button {
+  margin-top: 18px;
+  width: 100px;
+  height: 30px;
+  background: #EC1F46;
+  border-radius: 4px;
+  border: none;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.activiti-card:first-child {
+  background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url("../img/Rectangle-22.jpg");
+}
+
+.activiti-card:nth-child(2) {
+  background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url("../img/Rectangle-22-2.jpg");
+}
+
+.activiti-card:nth-child(3) {
+  background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url("../img/Rectangle-22-3.jpg");
+}
+
+.activiti-card:last-child {
+  background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url("../img/Rectangle-22-4.jpg");
 }
