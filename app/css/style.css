@@ -617,6 +617,7 @@ form.example::after {
   padding-top: 38px;
   padding-left: 44px;
   padding-right: 21px;
+  position: relative;
 }
 
 h6 {
@@ -628,9 +629,106 @@ h6 {
   color: #FFFFFF;
 }
 
-.card-1 p {
+.card-1 p, .card-2 p, .card-3 p, .card-4 p, .card-5 p {
   margin-top: 27px;
   font-size: 14px;
   line-height: 160.6%;
   color: #FFFFFF;
+}
+
+
+
+.person-room {
+  margin-top: 34px;  
+}
+
+.person-room p {
+  margin: 0;
+  padding-left: 28px;
+  background-size: 14px 14px;
+  margin-bottom: 10px;
+  background-position-y: 20%;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.person-room p:last-child {
+  margin-bottom: 0;
+}
+
+.map-pin {
+  background-image: url(../img/map-pin.svg);
+  background-repeat: no-repeat;
+}
+
+.price {
+  margin-top: 45px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price .old-price {
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.price .new-price {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-top: 5px;
+}
+
+.price a {
+  box-sizing: border-box;
+  border: none;
+  width: 120px;
+  height: 40px;
+  background: #EC1F46;
+  border-radius: 4px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding-top: 11px;
+  padding-left: 26px;
+  margin-top: 14px;
+}
+
+.card-2, .card-3, .card-4, .card-5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-2 .hotel-features,
+.card-3 .hotel-features,
+.card-4 .hotel-features,
+.card-5 .hotel-features {
+  padding-top: 30px;
+  padding-left: 32px;
+}
+
+.card-2 .person-room,
+.card-3 .person-room,
+.card-4 .person-room,
+.card-5 .person-room {
+  margin-top: 23px;
+}
+
+.card-2 .price,
+.card-3 .price,
+.card-4 .price,
+.card-5 .price {
+  margin-top: 24px;
+}
+
+.price .small-card-button {
+  margin-top: 15px;
 }
