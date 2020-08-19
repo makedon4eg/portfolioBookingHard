@@ -1041,3 +1041,211 @@ form.example::after {
 .activiti-card:last-child {
   background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url("../img/Rectangle-22-4.jpg");
 }
+
+footer {
+  height: 900px;
+  background: #0A223D;
+  padding-top: 108px;
+}
+
+footer h6 {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+footer li a {
+  display: block;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #BDBDBD;
+}
+
+footer li:first-child a {
+  margin-top: 20px;
+}
+
+.footer-top {
+  display: flex;
+}
+
+.footer-top-logo {
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  color: white;
+  padding-top: 31px;
+  margin-right: 120px;
+}
+
+.footer-top-logo span {
+  color: #EC1F46;
+}
+
+.footer-top-nav {
+  height: 218px;
+  margin-right: 145px;
+}
+
+.footer-top-legal {
+  margin-left: 60px;
+}
+
+.footer-top-contacts li:last-child a {
+  margin-bottom: 18px;
+}
+
+.footer-top-contacts-social {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  margin-left: 43px;
+  align-items: center;
+  display: flex;
+  width: 80px;
+  height: 26px;
+  justify-content: space-between;
+}
+
+.footer-contacts {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.contact-details {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  color: #BDBDBD;
+}
+
+.contact-details h6 {
+  margin-bottom: 25px;
+  margin-top: 101px;
+}
+
+.contact-details li a {
+  padding-left: 42px;
+}
+
+.contact-details li:first-child a {
+  background-image: url(../img/location.svg);
+  background-repeat: no-repeat;
+}
+
+.contact-details li:nth-child(2) a {
+  background-image: url(../img/phone-call-2.svg);
+  background-repeat: no-repeat;
+  margin-top: 25px;
+}
+
+.contact-details li:last-child a {
+  background-image: url(../img/email.svg);
+  background-repeat: no-repeat;
+  margin-top: 25px;
+}
+
+.feedback {
+  margin-top: 89px;
+  width: 540px;
+  height: 317px;
+}
+
+.feedback form {
+  margin-top: 34px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px 30px;
+}
+
+form input {
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  height: 50px;
+  padding-top: 18px;
+  padding-left: 23px;
+}
+
+form textarea {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 8;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  padding-top: 18px;
+  padding-left: 23px;
+}
+
+form button {
+  width: 160px;
+  height: 50px;
+  background: #EC1F46;
+  border-radius: 4px;
+  border: none;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin-top: 6px;
+}
+
+form input::placeholder, form textarea {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #BDBDBD;
+}
+
+form p {
+  padding-top: 25px;
+  padding-left: 155px;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #E0E0E0;
+}
+
+.footer-bottom {
+  margin-top: 100px;
+}
+
+.description {
+  margin: 0 auto;
+  max-width: 290px;
+}
+
+.description li a {
+  display: inline;
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin-right: 8px;
+}
