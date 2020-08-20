@@ -114,6 +114,7 @@ form.example {
 
 form.example input[type=search] {
   padding-left: 23px;
+  padding-top: 14px;
   font-size: 17px;
   border: none;
   border-radius: 6px 0px 0px 6px;
@@ -926,6 +927,7 @@ article h2 {
 
 form.example input[type=input] {
   padding-left: 33px;
+  padding-top: 18px;
   font-size: 17px;
   border: none;
   border-radius: 6px 0px 0px 6px;
@@ -1178,6 +1180,7 @@ footer li:first-child a {
   border: none;
   height: 50px;
   padding-left: 23px;
+  padding-top: 18px;
 }
 
 form textarea {
