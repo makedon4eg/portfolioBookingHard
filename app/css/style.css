@@ -114,7 +114,6 @@ form.example {
 
 form.example input[type=search] {
   padding-left: 23px;
-  padding-top: 14px;
   font-size: 17px;
   border: none;
   border-radius: 6px 0px 0px 6px;
@@ -129,7 +128,6 @@ form.example input[type=search]::placeholder {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 15px;
   color: #333333;
 }
 
@@ -927,14 +925,12 @@ article h2 {
 
 form.example input[type=input] {
   padding-left: 33px;
-  padding-top: 18px;
   font-size: 17px;
   border: none;
   border-radius: 6px 0px 0px 6px;
   float: left;
   width: 350px;
   height: 55px;
-  line-height: 18px;
   background: #F5FAFE;
 }
 
@@ -943,7 +939,6 @@ form.example input[type=input]::placeholder {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 18px;
   color: #BDBDBD;
   vertical-align: bottom;
 }
@@ -1180,7 +1175,6 @@ footer li:first-child a {
   border: none;
   height: 50px;
   padding-left: 23px;
-  padding-top: 18px;
 }
 
 form textarea {
@@ -1215,7 +1209,6 @@ form input::placeholder, form textarea {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 15px;
   color: #BDBDBD;
 }
 
